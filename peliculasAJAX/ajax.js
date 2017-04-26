@@ -1,6 +1,7 @@
-$.ajax({
-		data: {"id" : idusuario, "filtro" : 1},
-        type: "POST",
+export function miAjax(index){
+	$.ajax({
+		data: {"indice" : index},
+        type: "GET",
 		dataType: 'jsonp',
         url:"peliculas.php",
         async: true,
@@ -19,4 +20,5 @@ $.ajax({
         error: function (obj, error, objError){
            
         }
-});
+	});
+}

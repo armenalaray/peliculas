@@ -28,13 +28,41 @@
 		
 		<div id="opciones">
 			<ul class = "menu">
-				<li class = "boton"><a>Fecha</a></li>
-				<li class = "boton"><a>Terror</a></li>
-				<li class = "boton"><a>Animacion</a></li>
-				<li class = "boton"><a>Todos</a></li>
+			<form>
+				<li class = "boton"><a index ="1">Fecha</a></li>
+				<li class = "boton"><a index ="2">Drama</a></li>
+				<li class = "boton"><a index ="3">Accion</a></li>
+				<li class = "boton"><a index ="4">Todos</a></li>
+			</form>
 			</ul>
 		</div>
 	</div>
+<script src="js/jQuery.js"></script>
+<script>
+$(document).ready(function(){
+	$("a").click(function(){
+		var index = $(this).attr("index");
+		$.ajax({url: "demo_test.txt", success: function(result){
+            $("#div1").html(result);
+        }});
+	});
+	
+});
 
+</script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
