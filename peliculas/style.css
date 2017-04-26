@@ -1,0 +1,121 @@
+body, html{
+	margin:0px;
+	height:100%;
+		
+}
+
+
+#titulo {
+    /* position: fixed; */
+    /* top: 0px; */
+    /* left: 0px; */
+    width: 100%;
+    height: 137px;
+    color: black;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 50px;
+    margin: 0px;
+    background-color: #96ceb4;
+}
+
+
+#main {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    height: 85%;
+}
+
+#maincontent {
+    /* position: absolute; */
+    /* left: 0px; */
+    /* top: 20%; */
+    float: left;
+    width: 80%;
+    height: 100%;
+    color: black;
+    font-size: 70px;
+    //text-align: center;
+    /*padding-top: 50px;*/
+    background-color: #ffeead;
+}
+
+.contenido {
+    position: relative;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    background-color: #ff6f69;
+}
+
+.text {
+    display: inline-block;
+    position: absolute;
+    right: 8%;
+    top: 10%;
+    width: 564px;
+    height: 500px;
+    font-size: 20px;
+    background-color: #96ceb4;
+    margin: 0px;
+    padding: 0px;
+    list-style-position: inside;
+    box-sizing: border-box;
+    border: solid 3px #000;
+}
+
+.movietext {
+    float: left;
+    width: 42%;
+    height: 11.33%;
+    /* text-align: center; */
+    padding: 0% 4%;
+    padding-top: 3%;
+	/*box-sizing: border-box;
+    border: solid 3px #000;*/
+}
+
+.moviename {
+    background-color: gray;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 25px;
+    width: 100%;
+}
+
+#opciones {
+    /* position: absolute; */
+    /* right: 0px; */
+    /* top: 20%; */
+    float: left;
+    width: 19%;
+    height: 100%;
+    color: black;
+    font-size: 70px;
+    text-align: center;
+    padding-left: 1%;
+    background-color: #ffcc5c;
+}
+
+.menu {
+    position: relative;
+    top: 0;
+    left: 10%;
+    width: 72%;
+    height: 76%;
+    background-color: #ff6f69;
+    font-size: 20px;
+    margin: 0% 0px;
+    padding: 16% 0%;
+    /* list-style-type: none; */
+}
+
+.boton {
+    height: 40px;
+    margin-top: 10px;
+    padding-top: 6px;
+    box-sizing: border-box;
+    border: solid 3px #000;
+}
